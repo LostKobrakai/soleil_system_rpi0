@@ -56,3 +56,6 @@ dtparam=act_led_trigger=heartbeat
 # To turn the LED completely off comment out the previous line and uncomment
 # the next.
 #dtparam=act_led_trigger=none
+
+# trigger low power mode on power off
+dtoverlay=gpio-poweroff
